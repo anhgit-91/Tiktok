@@ -34,3 +34,15 @@ body {
     color: var(--text-color);
     overflow-y: overlay;
 }
+
+button,
+input,
+[tabindex] {
+    border: none;
+    outline: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+}
